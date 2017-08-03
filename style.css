@@ -1,3 +1,37 @@
 body {
-	background-color: grey;
+	background-color: red;
+}
+.Calculator {
+	background-color: #81D8D0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.output{
+	background-color: #d3d3d3;
+	font-size: 2em;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.inner {
+	margin: 6px;
+	width: 2.6vw;
+	height: 1.6vw;
+
+}
+
+.big {
+	width: 110px;
 }
