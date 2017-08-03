@@ -36,7 +36,7 @@ $(document).ready(function(){
 
 	$(".btn").on("click", function(){
 		if (this.id === "clear"){
-			inputs=["0"];
+			inputs=[""];
 			update();
 		} else if (this.id === "backspace"){
 			inputs.pop();
@@ -45,7 +45,8 @@ $(document).ready(function(){
 		} else if (this.id === "equals") {
 			getTotal();
 		} else if (this.id === "percentage"){
-			//insert function to divide by 10
+			inputs.push("/10");
+			getTotal();
 
 		} else {
 			if(inputs[inputs.length-1].indexOf("+","-","*","/",".") === -1){

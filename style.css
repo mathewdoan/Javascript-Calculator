@@ -15,14 +15,15 @@ body {
 .output{
 	background-color: #d3d3d3;
 	font-size: 2em;
-	padding-left: 20px;
+	padding-left: 10px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	width: 290px;
 	margin-left: auto;
 	margin-right: auto;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
+	height: 50px;
 }
 
 .inner {
